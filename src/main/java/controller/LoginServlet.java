@@ -24,6 +24,8 @@ public class LoginServlet extends HttpServlet {
 
         if (setEmployee == 1) {
             resp.sendRedirect("success.jsp");
+        } else {
+            resp.sendRedirect("error.jsp");
         }
     }
 }
